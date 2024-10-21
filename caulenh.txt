@@ -1,0 +1,356 @@
+ 1  git -- version
+    2  git--verson
+    3  git --verson
+    4  mkdir"EX1"
+    5  dir
+    6  touch"EX1"
+    7  cd-/Dekstop
+    8  mkdir EX1
+    9  dir
+   10  cd EX1
+   11  touch myfile.txt
+   12  echo hello > myfile.txt
+   13  cat myfile.txt
+   14  echo hi >> myfile.txt
+   15  cat myfile.txt
+   16  dir
+   17  touch myfile1.txt
+   18  diff myfile.txt myfile1.txt
+   19  echo byee > myfile1.txt
+   20  diff myfile.txt myfile1.txt
+   21  git status
+   22  git log
+   23  git init EX2
+   24  git status
+   25  git init [ex2]
+   26  git status
+   27  git init ex2
+   28  git add index.html
+   29  git status
+   30  cd EX2
+   31  git status
+   32  echo empty.txt
+   33  git status
+   34   echo empty.txt > EX2
+   35  git status
+   36  git config -| k
+   37  git  config --global user.name Quang
+   38  git config -| k
+   39  git init EX3
+   40  cd EX3
+   41  git config -| git config --global user.name Quang
+   42   git config --global user.name Quang
+   43  Admin@Admin-PC MINGW64 ~/Desktop
+   44  $ mkdir"EX1"
+   45  bash: mkdirEX1: command not found
+   46  Admin@Admin-PC MINGW64 ~/Desktop
+   47  $ dir
+   48  EVKey.lnk  Excel.lnk  PowerPoint.lnk  Word.lnk  desktop.ini
+   49  Admin@Admin-PC MINGW64 ~/Desktop
+   50  $ touch"EX1"
+   51  bash: touchEX1: command not found
+   52  Admin@Admin-PC MINGW64 ~/Desktop
+   53  $
+   54  Admin@Admin-PC MINGW64 ~/Desktop
+   55  $ cd-/Dekstop
+   56  bash: cd-/Dekstop: No such file or directory
+   57  Admin@Admin-PC MINGW64 ~/Desktop
+   58  $ mkdir EX1
+   59  Admin@Admin-PC MINGW64 ~/Desktop
+   60  $ dir
+   61  EVKey.lnk  EX1  Excel.lnk  PowerPoint.lnk  Word.lnk  desktop.ini
+   62  Admin@Admin-PC MINGW64 ~/Desktop
+   63  $ cd EX1
+   64  Admin@Admin-PC MINGW64 ~/Desktop/EX1
+   65  $ touch myfile.txt
+   66  Admin@Admin-PC MINGW64 ~/Desktop/EX1
+   67  $ echo hello > myfile.txt
+   68  Admin@Admin-PC MINGW64 ~/Desktop/EX1
+   69  $ cat myfile.txt
+   70  hello
+   71  Admin@Admin-PC MINGW64 ~/Desktop/EX1
+   72  $ echo hi >> myfile.txt
+   73  Admin@Admin-PC MINGW64 ~/Desktop/EX1
+   74  $ cat myfile.txt
+   75  hello
+   76  hi
+   77  Admin@Admin-PC MINGW64 ~/Desktop/EX1
+   78  $ dir
+   79  myfile.txt
+   80  Admin@Admin-PC MINGW64 ~/Desktop/EX1
+   81  $ touch myfile1.txt
+   82  Admin@Admin-PC MINGW64 ~/Desktop/EX1
+   83  $ diff myfile.txt myfile1.txt
+   84  1,2d0
+   85  < hello
+   86  < hi
+   87  Admin@Admin-PC MINGW64 ~/Desktop/EX1
+   88  $ echo byee > myfile1.txt
+   89  Admin@Admin-PC MINGW64 ~/Desktop/EX1
+   90  $ diff myfile.txt myfile1.txt
+   91  1,2c1
+   92  < hello
+   93  < hi
+   94  ---
+   95  > byee
+   96  Admin@Admin-PC MINGW64 ~/Desktop/EX1
+   97  $ git status
+   98  fatal: not a git repository (or any of the parent directories): .git
+   99  Admin@Admin-PC MINGW64 ~/Desktop/EX1
+  100  $ git log
+  101  fatal: not a git repository (or any of the parent directories): .git
+  102  Admin@Admin-PC MINGW64 ~/Desktop/EX1
+  103  $ git init EX2
+  104  Initialized empty Git repository in C:/Users/Admin/Desktop/EX1/EX2/.git/
+  105  Admin@Admin-PC MINGW64 ~/Desktop/EX1
+  106  $ git status
+  107  fatal: not a git repository (or any of the parent directories): .git
+  108  Admin@Admin-PC MINGW64 ~/Desktop/EX1
+  109  $ git init [ex2]
+  110  Initialized empty Git repository in C:/Users/Admin/Desktop/EX1/[ex2]/.git/
+  111  Admin@Admin-PC MINGW64 ~/Desktop/EX1
+  112  $ git status
+  113  get init EX3
+  114  git init EX3
+  115  cd EX3
+  116  config -| l
+  117  git config --global user.name "Quang"
+  118  git config --global user.email "quang180226@gmail.com"
+  119  git config -| git config --global user.name "Quang"
+  120  git config
+  121  git config -| global user.name
+  122  git config --list
+  123  git config --local user.name "Quang"
+  124  git config --local user.email "Quang180226@gmail.com"
+  125  git config -| git
+  126  git config-| user.name
+  127  git config --local user.name"Quang"
+  128  git config -| name
+  129  git config --list
+  130  git log
+  131  git init EX4
+  132  cd EX4
+  133  touch file1
+  134  cd file1
+  135  cat
+  136  cd EX3
+  137  cd Dekstop
+  138  cd Dekstop
+  139  git init EX4
+  140  cd EX4
+  141  touch file2
+  142  git status
+  143  git add file1
+  144  git status
+  145  git commit -m hello
+  146  git log
+  147  mkdir EX5
+  148  cd EX5
+  149  git init 5
+  150  touch ex5.gitignore
+  151  *.log
+  152  touch io.log
+  153  *.log
+  154  /.log
+  155  touch u.txt
+  156  /.log
+  157  git add unu
+  158  git add file1
+  159  touch file1
+  160  git add file1
+  161  touch file1
+  162  dir
+  163  git add io.log
+  164  echo hello > file1
+  165  git add.:
+  166  git add .:
+  167  cd file1
+  168  cd File1
+  169  touch file1
+  170  git commit -m "Ghi chu ve commit"
+  171  git commit -a -m"Ghi chu ve commit
+  172  q
+  173  q
+  174  git commita
+  175  mkdir EX5
+  176  cd EX5
+  177  git init 8
+  178  cd 8
+  179  cd EX5
+  180  rmdir.git
+  181  cd Dekstop
+  182  git remote rm 8
+  183  git remote rm EX5
+  184  git --version
+  185  git -- version4
+  186  git --verson
+  187  git --version
+  188  git --help
+  189  cd Dekstop
+  190  cd Windows 10
+  191  cd Windows 10/New Folder
+  192  git clone https://github.com/quang1802/24174600135_do_van_quang_bai_tap.git
+  193  cd 24174600135_do_van_quang_bai_tap
+  194  dir
+  195  cd 24174600135_do_van_quang_bai_tap
+  196  git add README.md
+  197  git status
+  198  git commit -m "Chinh sua noi dun cua tep README.md"
+  199  git push origin main
+  200  git push origin main
+  201  git init
+  202  git checkout main
+  203  git checkout -b branch_1
+  204  echo "Lorem ipsum dolor sit amet, consectetur adipiscing elit." > text_braunch_1.txt
+  205  git add text_branch_1.txt
+  206  dir
+  207  is
+  208  dir
+  209  echo "Lorem ipsum dolor sit amet, consectetur adipiscing elit." > text_branch_1.txt
+  210  git add text_branch_1.txt
+  211  git commit-m "Them tep text_branch_1.txt"
+  212  git commit -m "Them tep text_branch_1.txt"
+  213  git push origin branch_1
+  214  git checkout main
+  215  git checkout -b branch_2
+  216  echo "Praesent ullamcorper orci eu placerat sodales." > text_branch_2.txt
+  217  git add text_branch_2.txt
+  218  git commit -m "Them tep text_branch_2.txt"
+  219  git push origin branch_2
+  220  git checkout main
+  221  git checkout -b branch_3
+  222  echo "Integer sit amet nisi aliquam, tempor libero quis, curus erat." > text_branch_3.txt
+  223  git add text_branch_3.txt
+  224  git commit -m "Them tep text_branch_3.txt"
+  225  git push origin branch_3
+  226  git checkout main
+  227  git checkout -b branch_4
+  228  echo "Cras ac mi nec nisi porta ultrices sed non ante." > text_branch_4.txt
+  229  git add text_branch_4.txt
+  230  git commit -m "Them tep text_branch_4.txt"
+  231  git push origin branch_4
+  232  git checkout main
+  233  git checkout -d branch_4
+  234  git branch -d branch_4
+  235  git branch --list
+  236  git branch -r
+  237  git status
+  238  git pull origin main
+  239  git pull
+  240  git checkout main
+  241  git status
+  242  git branch -d text_braunch_1.txt
+  243  git branch -r
+  244  git branch_1
+  245  git checkout branch_1
+  246  git pull origin main
+  247  git checkout main
+  248  mkdir main_folder
+  249  echo "maintxt1" > main_folder/main_txt_1.txt
+  250  echo "maintxt2" > main_folder/main_txt_2.txt
+  251  echo "maintxt3" > main_folder/main_txt_3.txt
+  252  dir main_folder
+  253  git add main_folder
+  254  git add main_folder/
+  255  get commit -m "Them main_folder voi main_txt_1.txt, main_txt_2.txt, main_txt_3.txt"
+  256  git commit -m "Them main_folder voi main_txt_1.txt, main_txt_2.txt, main_txt_3.txt"
+  257  git push origin main
+  258  git branch -r
+  259  git check out branch_1
+  260  git checkout branch_1
+  261  git pull origin main
+  262  git status
+  263  git checkout branch_1
+  264  git pull origin main
+  265  git add.
+  266  git add
+  267  git commit -m "Luu tru cac thay doi cuc bo truoc khi pull"
+  268  git pull origin main
+  269  git checkout branch_1
+  270  git merge main
+  271  git status
+  272  git rm text_braunch_1,txt
+  273  git rm text_braunch_1.txt
+  274  git status
+  275  git add text_braunch_1,txt
+  276  git status
+  277  rm text_braunch_1.txt
+  278  git status
+  279  git checkout branch_1
+  280  git pull origin main
+  281  git checkout origin main
+  282  git checkout main
+  283  git status
+  284  dir
+  285  git branch -r
+  286  git branch
+  287  git checkout branch_2
+  288  git pull origin main
+  289  git status
+  290  git merge main
+  291  git pull origin main
+  292  dir
+  293  git checkout branch_3
+  294  git merge main
+  295  git status
+  296  git pull origin main
+  297  git chekout branch_4
+  298  git checkout branch_4
+  299  dir
+  300  git merge main
+  301  git pull origin main
+  302  dir
+  303  git checkout main
+  304  git branch
+  305  git checkout branch_1
+  306  git checkout -b branch_5
+  307  git add text_branch_1.txt
+  308  git commit -m "Sua noi dung tep text_branch_1.txt"
+  309  git push origin branch_5
+  310  git checkout branch_1
+  311  git add text_branch_1.txt
+  312  git push origin branch_5
+  313  dir
+  314  cat text_branch_1.txt
+  315  git checkout branch_5
+  316  dir
+  317  cat text_branch_1.txt
+  318  git checkout brand_1
+  319  git checkout branch_1
+  320  git reset --hard HEAD~1
+  321  git merge branch_5
+  322  cat text_branch_1.txt
+  323  git branch -d branch_5
+  324  git checkout main
+  325  git branch
+  326  git merge branch_1
+  327  git merge branch_2
+  328  dir
+  329  git checkout branch_2
+  330  dir
+  331  git checkout branch_3
+  332  dir
+  333  git checkout main
+  334  git push origin main
+  335  git pull origin main
+  336  dir
+  337  git checkout branch_1
+  338  git branch --delete branch_2
+  339  git checkout main
+  340  git branch --delete branch_2
+  341  git branch --delete branch_3
+  342  dir
+  343  git branch -D branch_3
+  344  git diff branch_4
+  345  :wq
+  346  git branch --delete branch_4
+  347  git branch -D branch_4
+  348  git push origin --delete branch_2
+  349  git push origin --delete branch_3
+  350  git push origin --delete branch_4
+  351  git pull origin main
+  352  git checkout branch_1
+  353  git merge main
+  354  touch caulenh.txt
+  355  git log
+  356  history
